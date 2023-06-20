@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #55378d;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #202020;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+}
+
+.gambar {
+  border-color: #55378d;
+}
+
+#about {
+  background-color: #ffffff;
+  padding-bottom: 10rem;
+}
+
+.tablecard {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.listAnggota {
+  border-color: #55378d;
+}
+
+footer {
+  background-color: #55378d;
+}

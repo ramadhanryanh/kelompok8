@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #55378d;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #202020;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #487fac;
+}
+
+.lead {
+  font-weight: bold;
+}
+
+.separator {
+  top: 0;
+  height: 100%;
+}
+
+:root {
+  --text-color: #ffffff;
+}
+
+.wrapper {
+  display: grid;
+  place-content: center;
+  min-height: 100px;
+  font-size: clamp(100px, 1rem + 10vw, 100px);
+  font-weight: 580;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+}
+
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(177deg, #487fac 53%, var(--text-color) 65%);
+  background: linear-gradient(177deg, #487fac 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn1:hover {
+  box-shadow: 0px 20px 10px -10px #3b5998;
+}
+
+.btn2:hover {
+  box-shadow: 0px 20px 10px -10px #ac2bac;
+}
+
+.btn3:hover {
+  box-shadow: 0px 20px 10px -10px #ffffff;
+}
+
+.btn-outline-dark:hover {
+  box-shadow: 0px 15px 15px -10px #000000;
+}
+
+.copy {
+  padding-top: 1rem;
+}
+
+footer {
+  background-color: #55378d;
+}
